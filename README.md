@@ -19,7 +19,7 @@ Since the application has a restart function it needs to run unde the Pi user:
 sudo mkdir /var/www
 sudo chown -R pi:pi /var/www
 cd /var/www
-git clone https://github.com/GwnDaan/openexcavator .
+git clone https://github.com/jenevo308/openexcavator1 .
 python3 openexcavator/database.py #initialize database entries
 ```
 To enable the application to start at boot copy the `openexcavator.service` systemd file from the `scripts` folder to `/etc/systemd/system` and enable it using:
